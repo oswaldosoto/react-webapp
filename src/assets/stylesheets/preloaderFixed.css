@@ -1,0 +1,8 @@
+#backgroundGradient {
+    background-color: #B2602F; /* For browsers that do not support gradients */
+    background: linear-gradient(180deg, #B2602F 0%, #F2C430 79%, #E98A30 100%);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

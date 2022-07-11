@@ -1,0 +1,92 @@
+#container {
+    min-height: 100%;
+    margin: 0;
+  }
+  
+/*---------------------------------------------Preloader---------------------------------------------*/
+/*Preloader svg*/
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+  }
+
+  .animate-flicker {
+      animation: fadeIn 3s infinite alternate;
+      vertical-align: middle;
+      max-width: 100%;
+  }
+
+/* .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+/*Preloader background*/
+
+#backgroundGradient {
+    background-color: #B2602F; /* For browsers that do not support gradients */
+    background: linear-gradient(180deg, #B2602F 0%, #F2C430 79%, #E98A30 100%);
+    
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ /*Responsive Media Queries*/
+
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+    .animate-flicker {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);  
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .animate-flicker{
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+/* @media only screen and (min-width: 600px) {
+    .animate-flicker{
+        margin-top: 20%;
+        
+    }
+} */
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (min-width: 480px) and (min-width: 768px) and (min-width: 950px) {
+    .animate-flicker{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .animate-flicker{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .animate-flicker{
+        max-width: 100%;
+        height: auto;
+    }
+}
