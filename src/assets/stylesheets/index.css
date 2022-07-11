@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+.myClass {
+  fill: url(#image);
+  stroke: red;
+  stroke-width: 5;
+}
+
+.section {
+  display: block;
+  background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-img {
+  height: 45%;
+}
+
+.curve {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+
